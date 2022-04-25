@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de figuras</title>
+</head>
+<body>
+    
+    <header>
+        <h1>Figuras geomrétricas</h1>
+        <P>
+            Esta es una calculadora de figuras geométricas, parte del primer taller del curso práctico de JavaScript
+        </P>
+    </header>
+<section>
+    <h2>Calcula el área y perimetro de un cuadrado</h2>
+
+    <form action="">
+        <label for="InputCuadrado">¿Cuánto mide cada lado de tu cuadrado?</label>
+        <input id="InputCuadrado" type="number">
+        <button type="button" onclick="CalcularPerimetroCuadrado()">Calcular Perimetro</button>
+        <button type="button" onclick="CalcularAreaCuadrado()">Calcular Área</button>
+    </form>
+</section>
+<section>
+    <h2>Calcula el área y perimetro de un Triangulo</h2>
+
+    <form action="">
+        <label for="InputTri1">Lado 1</label>
+        <input id="InputTri1" type="number">
+        <label for="InputTri2">Lado 2</label>
+        <input id="InputTri2" type="number">
+        <label for="InputTri3">Base</label>
+        <input id="InputTri3" type="number">
+        <label for="InputTri4">Base</label>
+        <input id="InputTri4" type="number">
+        <button type="button" onclick="CalcularPerimetroTriangulo()">Calcular Perimetro</button>
+        <button type="button" onclick="CalcularAreaTriangulo()">Calcular Área</button>
+    </form>
+</section>
+<section>
+    <h2>Calcula el área y perimetro de un Circulo</h2>
+
+    <form action="">
+        <label for="InputCir">¿Cuánto mide el radio de tu Círculo?</label>
+        <input id="InputCir" type="number">
+        <button type="button" onclick="CalcularPerimetroCirculo()">Calcular Perimetro</button>
+        <button type="button" onclick="CalcularAreaCirculo()">Calcular Área</button>
+    </form>
+</section>
+
+
+
+<script src="figuras.js"></script>
+
+
+</body>
+</html>
